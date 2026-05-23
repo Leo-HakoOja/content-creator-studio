@@ -1,0 +1,11 @@
+# Runtime directories — populated per client, not tracked
+footage-library/
+output/
+trends/saved/
+projects/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store

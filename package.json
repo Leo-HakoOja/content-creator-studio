@@ -1,0 +1,17 @@
+{
+  "name": "content-creator-studio",
+  "version": "1.0.0",
+  "description": "Claude Code content production studio — generic template",
+  "scripts": {
+    "setup": "node _scripts/setup.js",
+    "scan": "node _scripts/scan-footage.js",
+    "trends": "node _scripts/fetch-trends.js",
+    "import": "node _scripts/import-research.js",
+    "new-idea": "node _scripts/new-idea.js",
+    "new-project": "node _scripts/new-project.js",
+    "brief": "node _scripts/generate-brief.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
