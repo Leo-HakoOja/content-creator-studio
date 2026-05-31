@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run trends*)",
+      "Bash(npm run scan*)",
+      "Bash(npm run brief*)",
+      "Bash(npm run new-idea*)",
+      "Bash(npm run new-project*)",
+      "Bash(npm run setup*)",
+      "Bash(npm run import*)",
+      "Bash(node _scripts/*)",
+      "Bash(npm run motion:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/lhakooja/content-creator-studio/_scripts/guard-config.sh",
+            "statusMessage": "Checking file access..."
+          }
+        ]
+      }
+    ]
+  }
+}

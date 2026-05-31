@@ -9,7 +9,11 @@
     "import": "node _scripts/import-research.js",
     "new-idea": "node _scripts/new-idea.js",
     "new-project": "node _scripts/new-project.js",
-    "brief": "node _scripts/generate-brief.js"
+    "brief": "node _scripts/generate-brief.js",
+    "motion:studio": "cd remotion && npm run dev",
+    "motion:intro": "cd remotion && npm run render:intro",
+    "motion:lower-third": "cd remotion && npm run render:lower-third",
+    "motion:title-card": "cd remotion && npm run render:title-card"
   },
   "engines": {
     "node": ">=18.0.0"

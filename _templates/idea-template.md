@@ -44,6 +44,12 @@ This section is for the creator — Claude should not fill it in.)_
 
 ## Production
 
+**Platform target:** `[ ]` YouTube longform  `[ ]` YouTube Shorts  `[ ]` TikTok  `[ ]` Instagram Reels
+
+**Estimated length:**
+
+**Greenscreen / keying needed?** `[ ]` Yes  `[ ]` No
+
 **Footage available?** `[ ]` Yes — clips listed below  `[ ]` No — needs filming  `[ ]` Partial  
 
 **Topics / products involved:**  
